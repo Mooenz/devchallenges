@@ -1,0 +1,74 @@
+[
+  {
+    "title": "404 Not Found",
+    "body": "This challenge is suitable for you if you just started with coding. The challenge will test your basic CSS and HTML skills.",
+    "level": "beginner",
+    "check": true,
+    "repository": "https://github.com/Mooenz/portfolio-devchallenges/tree/main/404-not-found-master",
+    "demo": "https://mooenz.github.io/portfolio-devchallenges/404-not-found-master/",
+    "image": "notFound.webp"
+  },
+  {
+    "title": "My team page",
+    "body": "This challenge will test your basic CSS skills and get it to next level. You will work with basic HTML element to make a simple but yet elegant team page.",
+    "level": "beginner",
+    "check": true,
+    "repository": "https://github.com/Mooenz/portfolio-devchallenges/tree/main/my-team-page-master",
+    "demo": "https://mooenz.github.io/portfolio-devchallenges/my-team-page-master/",
+    "image": "myTeamPage.webp"
+  },
+  {
+    "title": "Interior Consultant",
+    "body": "Your challenge is to create a simple interior consultant homepage. This challenge will test your skill in styling navigation and positioning.",
+    "level": "beginner",
+    "check": false,
+    "repository": "",
+    "demo": "",
+    "image": ""
+  },
+  {
+    "title": "Recipe page",
+    "body": "Everyone loves food, especially cheesecake. In this challenge, you will work with a recipe of your choice or given one.",
+    "level": "beginner",
+    "check": false,
+    "repository": "",
+    "demo": "",
+    "image": ""
+  },
+  {
+    "title": "My Gallery",
+    "body": "Inspired by instagram, in this challenge you will work with a similar design to instagram profile page.",
+    "level": "beginner",
+    "check": false,
+    "repository": "",
+    "demo": "",
+    "image": ""
+  },
+  {
+    "title": "Checkout Page",
+    "body": "In this challenge, you will work with the form in a modern and minimal design. The challenge will bring your HTML and CSS to a new level. ",
+    "level": "beginner",
+    "check": false,
+    "repository": "",
+    "demo": "",
+    "image": ""
+  },
+  {
+    "title": "Edie  homepage",
+    "body": "Homepage is a popular task that a developer has to do. In this challenge, you will work with Edie - a small team providing web services.",
+    "level": "elementary",
+    "check": false,
+    "repository": "",
+    "demo": "",
+    "image": ""
+  },
+  {
+    "title": "Portfolio",
+    "body": "A portfolio is the most important certificate when applying to a job. In this challenge, you will create a beautiful portfolio page.",
+    "level": "intermediate",
+    "check": false,
+    "repository": "",
+    "demo": "",
+    "image": ""
+  }
+]
