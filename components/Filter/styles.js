@@ -22,7 +22,7 @@ export const List = styled.ul`
 export const Item = styled.li`
   background-color: ${primary};
   color: ${thirdOne};
-  font-size: 1.25rem;
+  font-size: 1rem;
   padding: 0.5rem;
   cursor: pointer;
   transition-duration: 0.2s;
@@ -47,5 +47,9 @@ export const Item = styled.li`
   &:nth-child(4) {
     border-radius: 0 0.5rem 0.5rem 0;
     border-left: 1px solid ${secondary};
+  }
+
+  @media screen and (min-width: 50rem) {
+    font-size: 20px;
   }
 `;
