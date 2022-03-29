@@ -21,19 +21,19 @@
     "title": "Interior Consultant",
     "body": "Your challenge is to create a simple interior consultant homepage. This challenge will test your skill in styling navigation and positioning.",
     "level": "beginner",
-    "check": false,
-    "repository": "",
-    "demo": "",
-    "image": ""
+    "check": true,
+    "repository": "https://github.com/Mooenz/portfolio-devchallenges/tree/main/interior-consultant-master",
+    "demo": "https://mooenz.github.io/portfolio-devchallenges/interior-consultant-master/",
+    "image": "interiorConsultant.webp"
   },
   {
     "title": "Recipe page",
     "body": "Everyone loves food, especially cheesecake. In this challenge, you will work with a recipe of your choice or given one.",
     "level": "beginner",
-    "check": false,
-    "repository": "",
-    "demo": "",
-    "image": ""
+    "check": true,
+    "repository": "https://github.com/Mooenz/portfolio-devchallenges/tree/main/recipe-page-master",
+    "demo": "https://mooenz.github.io/portfolio-devchallenges/recipe-page-master/",
+    "image": "recipePage.webp"
   },
   {
     "title": "My Gallery",
