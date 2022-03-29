@@ -89,6 +89,7 @@ export const Anchor = styled.a`
   border-radius: 0.5rem;
   transition-duration: 0.5s;
 
+
   &:hover {
     background-color: ${thirdTwo};
   }
