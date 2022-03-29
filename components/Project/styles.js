@@ -51,7 +51,7 @@ export const Level = styled.span`
   background: linear-gradient(90deg, ${thirdOne} 0%, ${thirdTwo} 100%);
   border-radius: 0 0 0 0.5rem;
   color: ${primary};
-  font-size: 0.75rem;
+  font-size: 0.625rem;
   font-weight: 900;
   text-transform: uppercase;
   letter-spacing: 0.0938rem;
@@ -84,7 +84,12 @@ export const Body = styled.p`
 `;
 
 export const Anchor = styled.a`
-  background-color: ${thirdTwo};
+  background-color: ${thirdOne};
   padding: 0.3125rem;
   border-radius: 0.5rem;
+  transition-duration: 0.5s;
+
+  &:hover {
+    background-color: ${thirdTwo};
+  }
 `;
