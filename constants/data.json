@@ -39,10 +39,10 @@
     "title": "My Gallery",
     "body": "Inspired by instagram, in this challenge you will work with a similar design to instagram profile page.",
     "level": "beginner",
-    "check": false,
-    "repository": "",
-    "demo": "",
-    "image": ""
+    "check": true,
+    "repository": "https://github.com/Mooenz/portfolio-devchallenges/tree/main/my-gallery-master",
+    "demo": "https://mooenz.github.io/portfolio-devchallenges/my-gallery-master/",
+    "image": "myGallery.webp"
   },
   {
     "title": "Checkout Page",
