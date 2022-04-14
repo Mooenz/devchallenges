@@ -25,7 +25,10 @@ export const Item = styled.li`
   font-size: 1rem;
   padding: 0.5rem;
   cursor: pointer;
-  transition-duration: 0.2s;
+  transition-duration: 0.3s;
+  transform: ${({ tapActive, tapSelect }) =>
+    tapActive === tapSelect && 'translateY(0.3125rem)'};
+  color: ${({ tapActive, tapSelect }) => tapActive === tapSelect && thirdTwo};
 
   &:active {
     transform: translateY(0.3125rem);
