@@ -48,27 +48,27 @@
     "title": "Checkout Page",
     "body": "In this challenge, you will work with the form in a modern and minimal design. The challenge will bring your HTML and CSS to a new level. ",
     "level": "beginner",
-    "check": false,
-    "repository": "",
-    "demo": "",
-    "image": ""
+    "check": true,
+    "repository": "https://github.com/mooenz/portfolio-devchallenges/tree/main/checkout-page-master",
+    "demo": "https://mooenz.github.io/portfolio-devchallenges/checkout-page-master/",
+    "image": "checkoutPage.webp"
   },
   {
     "title": "Edie  homepage",
     "body": "Homepage is a popular task that a developer has to do. In this challenge, you will work with Edie - a small team providing web services.",
     "level": "elementary",
-    "check": false,
-    "repository": "",
-    "demo": "",
-    "image": ""
+    "check": true,
+    "repository": "https://github.com/Mooenz/portfolio-devchallenges/tree/main/edie-homepage-master",
+    "demo": "https://mooenz.github.io/portfolio-devchallenges/edie-homepage-master/",
+    "image": "eddiHomepage.webp"
   },
   {
     "title": "Portfolio",
     "body": "A portfolio is the most important certificate when applying to a job. In this challenge, you will create a beautiful portfolio page.",
     "level": "intermediate",
-    "check": false,
-    "repository": "",
-    "demo": "",
-    "image": ""
+    "check": true,
+    "repository": "https://github.com/Mooenz/portfolio-devchallenges/tree/main/portfolio-master",
+    "demo": "https://mooenz.github.io/portfolio-devchallenges/portfolio-master/",
+    "image": "portafolio.webp"
   }
 ]
