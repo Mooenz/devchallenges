@@ -11,17 +11,21 @@ const Filter = () => {
   // State tap active
   const [tap, setTap] = useState('all');
 
-    // Context
-    const { dataArray, setDataFilter } = useContext(FilterContext);
+  // Context
+  const { dataArray, setDataFilter } = useContext(FilterContext);
 
   const handelFilter = (filter) => {
     setTap(filter);
-    
+
     const dataArrayFilter = dataArray.filter((item) => {
       return item.level === filter;
     });
 
-    if (filter === 'newbie' || 'junior') {
+    if (
+      filter === 'beginner' ||
+      filter === 'elementary' ||
+      filter === 'intermediate'
+    ) {
       setDataFilter(dataArrayFilter);
     }
 
