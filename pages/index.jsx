@@ -4,6 +4,9 @@ import Head from 'next/head';
 import Projects from '../components/Projects';
 import Filter from '../components/Filter';
 
+//Filter
+import FilterProvider from '../context/FilterContext';
+
 //Styles
 import {
   Main,
@@ -21,25 +24,27 @@ export default function Home() {
         <title>Projects solved form devChallenge - Mooenz</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Main className="spaceLateral">
-        <Content>
-          <Title>
-            Portfolio <Strong>devChallenge</Strong>
-          </Title>
-          <Body>
-            Find these and more challenges{' '}
-            <Anchor
-              href="https://devchallenges.io/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              here.
-            </Anchor>
-          </Body>
-        </Content>
-        <Filter />
-        <Projects />
-      </Main>
+      <FilterProvider>
+        <Main className="spaceLateral">
+          <Content>
+            <Title>
+              Portfolio <Strong>devChallenge</Strong>
+            </Title>
+            <Body>
+              Find these and more challenges{' '}
+              <Anchor
+                href="https://devchallenges.io/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                here.
+              </Anchor>
+            </Body>
+          </Content>
+          <Filter />
+          <Projects />
+        </Main>
+      </FilterProvider>
     </>
   );
 }

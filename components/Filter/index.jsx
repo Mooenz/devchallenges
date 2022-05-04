@@ -1,5 +1,9 @@
 useState;
-import { useState } from 'react';
+import { useState, useContext } from 'react';
+
+//Filter
+import { FilterContext } from '../../context/FilterContext';
+
 //Styles
 import { Container, List, Item } from './styles';
 
@@ -7,8 +11,21 @@ const Filter = () => {
   // State tap active
   const [tap, setTap] = useState('all');
 
+    // Context
+    const { dataArray, setDataFilter } = useContext(FilterContext);
+
   const handelFilter = (filter) => {
     setTap(filter);
+    
+    const dataArrayFilter = dataArray.filter((item) => {
+      return item.level === filter;
+    });
+
+    if (filter === 'newbie' || 'junior') {
+      setDataFilter(dataArrayFilter);
+    }
+
+    filter === 'all' && setDataFilter(dataArray);
   };
 
   return (

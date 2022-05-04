@@ -1,16 +1,20 @@
+import { useContext } from 'react';
+
 //Components
 import Project from '../Project';
 
 //Data
-import data from '../../constants/data.json';
+import { FilterContext } from '../../context/FilterContext';
 
 //Styles
 import { Content } from './styles';
 
 const Projects = () => {
+  const { dataFilter } = useContext(FilterContext);
+  
   return (
     <Content>
-      {data.map((item) => (
+      {dataFilter.map((item) => (
         <Project key={item.title} item={item} />
       ))}
     </Content>
