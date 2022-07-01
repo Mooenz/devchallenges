@@ -70,5 +70,14 @@
     "repository": "https://github.com/Mooenz/portfolio-devchallenges/tree/main/portfolio-master",
     "demo": "https://mooenz.github.io/portfolio-devchallenges/portfolio-master/",
     "image": "portafolio.webp"
+  },
+  {
+    "title": "Weather app",
+    "body": "Weather app is another popular project for practicing coding. In this challenge, you will work an interesting UI for a weather app.",
+    "level": "intermediate",
+    "check": true,
+    "repository": "https://github.com/Mooenz/weather-app-master",
+    "demo": "https://mooenz.github.io/weather-app-master/",
+    "image": "weather-app.webp"
   }
 ]
